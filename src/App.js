@@ -7,6 +7,7 @@ import Counter from './components/Counter';
 import DarkModeToggle from './components/DarkMode';
 import OknoModal from './components/OknoModal';
 import PasswordToggle from './components/PasswordToggle';
+import TextToggle from './components/TextToggle';
 
 function App() { 
 
@@ -19,6 +20,8 @@ function App() {
             <OknoModal/>
             <h1>Task 9</h1>
             <PasswordToggle></PasswordToggle>
+            <h1>Task 10</h1>
+            <TextToggle></TextToggle>
         </div> 
 
     ); 

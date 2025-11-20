@@ -10,7 +10,7 @@ const CountTo0 = () => {
     return (
         <div>
             <p>Count: {count}</p>
-            <button style={{color:"red", backgroundColor:"green"}}onClick={zmniejsz}>Zmniejsz</button>
+            <button style={{color:"red", backgroundColor:"green",borderColor:"blue"}}onClick={zmniejsz}>Zmniejsz</button>
         </div>
     );
 }

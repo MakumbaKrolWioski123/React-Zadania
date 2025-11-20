@@ -9,6 +9,9 @@ import OknoModal from './components/OknoModal';
 import PasswordToggle from './components/PasswordToggle';
 import TextToggle from './components/TextToggle';
 import Timer from './components/Timer';
+import ChangeColor from './components/ChangeColor';
+import Wpisz from './components/Wpisz';
+import ThreeColors from './components/ThreeColors';
 
 function App() { 
 
@@ -25,6 +28,12 @@ function App() {
             <TextToggle></TextToggle>
             <h1>Task 16</h1>
             <Timer></Timer>
+            <h1>Task 17</h1>
+            <ChangeColor></ChangeColor>
+            <h1>Task 18</h1>
+            <Wpisz></Wpisz>
+            <h1>Task 19</h1>
+            <ThreeColors></ThreeColors>
         </div> 
 
     ); 

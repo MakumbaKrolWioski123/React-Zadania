@@ -8,9 +8,9 @@ const ThreeColors = () => {
     return (
         <div>
             <p style={{color}}>Tekst w roznych kolorach</p>
-            <button onClick={() => changeColor("red")}>Red</button>
-            <button onClick={() => changeColor("green")}>Green</button>
-            <button onClick={() => changeColor("blue")}>Blue</button>
+            <button style={{backgroundColor:"red",color:"white"}} onClick={() => changeColor("red")}>Red</button>
+            <button style={{backgroundColor:"green",color:"white"}} onClick={() => changeColor("green")}>Green</button>
+            <button style={{backgroundColor:"blue",color:"white"}} onClick={() => changeColor("blue")}>Blue</button>
         </div>
     );
 }

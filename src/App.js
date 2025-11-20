@@ -12,6 +12,8 @@ import Timer from './components/Timer';
 import ChangeColor from './components/ChangeColor';
 import Wpisz from './components/Wpisz';
 import ThreeColors from './components/ThreeColors';
+import AddList from './components/AddList';
+import CountTo0 from './components/CountTo0';
 
 function App() { 
 
@@ -34,6 +36,10 @@ function App() {
             <Wpisz></Wpisz>
             <h1>Task 19</h1>
             <ThreeColors></ThreeColors>
+            <h1>Task 20</h1>
+            <AddList></AddList>
+            <h1>Task 21</h1>
+            <CountTo0></CountTo0>
         </div> 
 
     ); 

@@ -12,7 +12,7 @@ const TextToggle = () =>
             </button>
             {showText && (
                 <div>
-                    <p>To jest dodatkowy tekst</p>
+                    <p>Oto jest dodatkowy tekst</p>
                 </div>
             )}
         </div>

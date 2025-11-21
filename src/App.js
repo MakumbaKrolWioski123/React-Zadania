@@ -14,6 +14,8 @@ import Wpisz from './components/Wpisz';
 import ThreeColors from './components/ThreeColors';
 import AddList from './components/AddList';
 import CountTo0 from './components/CountTo0';
+import ShowNumber from './components/ShowNumber';
+import Wiadomosc from './components/Wiadomosc';
 
 function App() { 
 
@@ -28,6 +30,10 @@ function App() {
             <PasswordToggle></PasswordToggle>
             <h1>Task 10</h1>
             <TextToggle></TextToggle>
+            <h1>Task 11</h1>
+           <ShowNumber></ShowNumber>
+            <h1>Task 12</h1>
+            <Wiadomosc></Wiadomosc>
             <h1>Task 16</h1>
             <Timer></Timer>
             <h1>Task 17</h1>

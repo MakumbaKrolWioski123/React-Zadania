@@ -18,6 +18,8 @@ import ShowNumber from './components/ShowNumber';
 import Wiadomosc from './components/Wiadomosc';
 import ListaMiast from './components/ListaMiast';
 import ListaClick from './components/ListaClick';
+import ListGlowContainer from './components/ListGlow';
+
 
 function App() { 
 
@@ -53,6 +55,10 @@ function App() {
             <ListaMiast></ListaMiast>
             <h2>Task 2</h2>
             <ListaClick></ListaClick>
+            <h1>Zadania zakladka 08</h1>
+            <h1>Task 1</h1>
+            <ListGlowContainer></ListGlowContainer>
+            
         </div> 
 
     ); 

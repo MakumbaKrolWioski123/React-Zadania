@@ -17,6 +17,7 @@ import CountTo0 from './components/CountTo0';
 import ShowNumber from './components/ShowNumber';
 import Wiadomosc from './components/Wiadomosc';
 import ListaMiast from './components/ListaMiast';
+import ListaClick from './components/ListaClick';
 
 function App() { 
 
@@ -48,8 +49,10 @@ function App() {
             <h1>Task 21</h1>
             <CountTo0></CountTo0>
             <h1>Zadania zakladka 07</h1>
-            <h1>Zadanie 1</h1>
+            <h1>Task 1</h1>
             <ListaMiast></ListaMiast>
+            <h2>Task 2</h2>
+            <ListaClick></ListaClick>
         </div> 
 
     ); 

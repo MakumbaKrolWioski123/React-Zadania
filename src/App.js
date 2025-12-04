@@ -20,6 +20,7 @@ import ListaMiast from './components/ListaMiast';
 import ListaClick from './components/ListaClick';
 import ListGlowContainer from './components/ListGlow';
 import ListGlowContainer2 from './components/ListGlow2';
+import Licznik from './components/Licznik';
 
 
 function App() { 
@@ -61,6 +62,9 @@ function App() {
             <ListGlowContainer></ListGlowContainer>
             <h1>Task 2</h1>
             <ListGlowContainer2></ListGlowContainer2>
+            <h1>Zadania zakladka 09</h1>
+            <h1>Task 1</h1>
+            <Licznik></Licznik>
             
         </div> 
 

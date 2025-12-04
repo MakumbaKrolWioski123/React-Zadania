@@ -20,8 +20,7 @@ const ListGlow = ({ items, selectedItem, onSelectItem }) => {
 
 const ListGlowContainer2 = () => {
   const items = ["Warszawa", "Kraków", "Gdańsk"];
-  const [selectedItem, setSelectedItem] = useState("Kraków"); // ⭐ domyślne podświetlenie
-
+  const [selectedItem, setSelectedItem] = useState("Kraków");
   const handleSelectItem = (item) => {
     setSelectedItem(item);
     console.log("Wybrano:", item);

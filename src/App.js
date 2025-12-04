@@ -16,6 +16,7 @@ import AddList from './components/AddList';
 import CountTo0 from './components/CountTo0';
 import ShowNumber from './components/ShowNumber';
 import Wiadomosc from './components/Wiadomosc';
+import ListaMiast from './components/ListaMiast';
 
 function App() { 
 
@@ -46,6 +47,9 @@ function App() {
             <AddList></AddList>
             <h1>Task 21</h1>
             <CountTo0></CountTo0>
+            <h1>Zadania zakladka 07</h1>
+            <h1>Zadanie 1</h1>
+            <ListaMiast></ListaMiast>
         </div> 
 
     ); 

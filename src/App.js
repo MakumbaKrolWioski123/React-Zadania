@@ -21,6 +21,9 @@ import ListaClick from './components/ListaClick';
 import ListGlowContainer from './components/ListGlow';
 import ListGlowContainer2 from './components/ListGlow2';
 import Licznik from './components/Licznik';
+import ThemeSwitcher from './components/ThemeSwitcher';
+import Alert from './components/KlasaAlert';
+import Card from './components/Card';
 
 
 function App() { 
@@ -65,6 +68,16 @@ function App() {
             <h1>Zadania zakladka 09</h1>
             <h1>Task 1</h1>
             <Licznik></Licznik>
+            <h1>Task 2</h1>
+            <ThemeSwitcher></ThemeSwitcher>
+            <h1>Zadania zakladka 10</h1>
+            <h1>Task 1</h1>
+            <Alert><strong>To jest błąd!</strong></Alert>
+            <h1>Task 2</h1>
+            <Card>
+                <h2>Karta tytul</h2>
+                <p>To jest zawartość karty.</p>
+            </Card>
             
         </div> 
 

@@ -24,6 +24,8 @@ import Licznik from './components/Licznik';
 import ThemeSwitcher from './components/ThemeSwitcher';
 import Alert from './components/KlasaAlert';
 import Card from './components/Card';
+import Przycisk from './components/DoubleClick';
+import Przycisk1 from './components/ButtonSize';
 
 
 function App() { 
@@ -78,7 +80,11 @@ function App() {
                 <h2>Karta tytul</h2>
                 <p>To jest zawartość karty.</p>
             </Card>
-            
+            <h1>Zadania zakladka 12</h1>
+            <h1>Task 1</h1>
+            <Przycisk></Przycisk>
+            <h2>Task 2</h2>
+            <Przycisk1></Przycisk1>
         </div> 
 
     ); 

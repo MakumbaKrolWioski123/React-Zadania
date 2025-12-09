@@ -26,6 +26,8 @@ import Alert from './components/KlasaAlert';
 import Card from './components/Card';
 import Przycisk from './components/DoubleClick';
 import Przycisk1 from './components/ButtonSize';
+import Alert1 from './components/CloseAlert';
+import Alert2 from './components/ColorAlert';
 
 
 function App() { 
@@ -85,6 +87,11 @@ function App() {
             <Przycisk></Przycisk>
             <h2>Task 2</h2>
             <Przycisk1></Przycisk1>
+            <h1>Zadania zakladka 13</h1>
+            <h1>Task 1</h1>
+            <Alert1></Alert1>
+            <h1>Task 2</h1>
+            <Alert2></Alert2>
         </div> 
 
     ); 

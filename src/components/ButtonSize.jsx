@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Przycisk1 = ({ text="Kliknij mnie", size = 'medium' }) => {
+const Przycisk1 = ({ text="Button", size = 'medium' }) => {
     const sizeClassMap = {
         small: 'btn-sm',
         medium: '',
@@ -17,7 +17,8 @@ const Przycisk1 = ({ text="Kliknij mnie", size = 'medium' }) => {
 
     return (
         <div>
-            <h1 style={{ fontSize: currentSize === 'small' ? '14px' : currentSize === 'large' ? '32px' : '24px' }}>{text}</h1>
+            <button style={{ fontSize: currentSize === 'small' ? '14px' : currentSize === 'large' ? '32px' : '24px' }}>{text}</button>
+            <br />
             <button className={`btn ${sizeClassMap['small']}`} style={{ border: '2px solid black', backgroundColor: '#d3d3d3' }} onClick={() => handleSizeChange('small')}>Small</button>
             <button className={`btn ${sizeClassMap['medium']}`} style={{ border: '2px solid black', backgroundColor: '#d3d3d3' }} onClick={() => handleSizeChange('medium')}>Medium</button>
             <button className={`btn ${sizeClassMap['large']}`} style={{ border: '2px solid black', backgroundColor: '#d3d3d3' }} onClick={() => handleSizeChange('large')}>Large</button>
